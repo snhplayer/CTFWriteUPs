@@ -33,5 +33,5 @@ Forensics:
 PWN:
 - [x] ninipwn
 - [x] Buggy Paint
-- [ ] Protector
+- [x] Protector
 - [ ] U2S
