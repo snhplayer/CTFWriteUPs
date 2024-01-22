@@ -1,0 +1,1 @@
+The idea is to brute force the shift, then apply branch and prune to recover lsb of p and q and finally solve a quadratic equation to obtain the msb
