@@ -3,7 +3,7 @@ Crypto:
 - [x] What next II? 
 - [ ] What next? 
 - [ ] GLNQ 
-- [ ] Shibs 
+- [x] Shibs 
 - [ ] Isogenies 
 
 Reverse:
