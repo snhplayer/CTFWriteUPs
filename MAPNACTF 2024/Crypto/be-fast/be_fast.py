@@ -64,6 +64,7 @@ def main():
 		except:
 			die(border, 'Your key is not valid! Bye!!')
 		if len(KEYS) == STEP:
+			print(KEYS)
 			HKEY = KEYS[:7]
 			shuffle(HKEY)
 			NKEY = KEYS[-7:]
