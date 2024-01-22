@@ -2,7 +2,7 @@ Crypto:
 - [x] Be Fast 
 - [x] What next II? 
 - [ ] What next? 
-- [ ] GLNQ 
+- [x] GLNQ 
 - [x] Shibs 
 - [ ] Isogenies 
 
