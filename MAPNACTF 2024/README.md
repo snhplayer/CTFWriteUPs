@@ -1,15 +1,15 @@
 Crypto:
-	-Be Fast ✓
-	-What next II? ✓
-	-What next? 
-	-GLNQ ☓
-	-Shibs ☓
-	-Isogenies ☓
+- [x] Be Fast 
+- [x] What next II? 
+- [ ] What next? 
+- [ ] GLNQ 
+- [ ] Shibs 
+- [ ] Isogenies 
 
 Reverse:
-	-Tetim ✓
-	-Prism ✓
-	-Heaverse ✓
-	-Compile Me ✓
-	-Time Traveler
-	-Locate Me ✓
+- [x] Tetim 
+- [x] Prism 
+- [x] Heaverse 
+- [x] Compile Me 
+- [ ] Time Traveler
+- [x] Locate Me 
