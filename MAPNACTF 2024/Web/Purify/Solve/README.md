@@ -1,0 +1,1 @@
+Roughly, the flow involves conducting a buffer overflow to modify the pointer from "is_dangerous" to point to the "escape_attr" function. With this, DomPurify will only sanitize " and ' characters, allowing us to freely use < and > for performing XSS (Cross-Site Scripting). 

