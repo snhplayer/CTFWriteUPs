@@ -4,7 +4,7 @@ Crypto:
 - [ ] What next? 
 - [x] GLNQ 
 - [x] Shibs 
-- [ ] Isogenies 
+- [x] Isogenies 
 
 Reverse:
 - [x] Tetim 
