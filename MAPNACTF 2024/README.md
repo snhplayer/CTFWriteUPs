@@ -24,7 +24,7 @@ Web:
 
 Forensics:
 - [x] XXG
-- [ ] JigBoy
+- [x] JigBoy
 - [ ] PLC I
 - [x] PLC II
 - [x] Mitrek
