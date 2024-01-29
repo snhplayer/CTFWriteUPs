@@ -1,0 +1,1 @@
+https://chovid99.github.io/posts/real-world-ctf-2024/
