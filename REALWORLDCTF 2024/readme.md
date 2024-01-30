@@ -1,0 +1,20 @@
+- [ ] Let's party in the house
+- [ ] RIPTC
+- [ ] Long Range 2
+- [x] ChatterBox
+- [ ] Nightmail
+- [x] SafeBridge
+- [ ] The truth of Plain
+- [ ] Corrupted GI
+- [ ] GeoServer Jive: The RCE Hive
+- [ ] T-Box
+- [ ] hoshmonster
+- [ ] 烫烫烫
+- [ ] Router4
+- [ ] pgsum
+- [ ] minioday
+- [ ] YouKnowHowToFuzz!
+- [ ] Protected by Java SE
+- [ ] Grandma's Laptop
+- [ ] PyGhost
+- [x] LLM sanitizer
