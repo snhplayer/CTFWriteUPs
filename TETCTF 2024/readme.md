@@ -15,8 +15,8 @@ MISCELLANEOUS
   - [x] Stress Release Service
 
 WEB
-  - [ ] Hello from API GW
-  - [ ] Microservices
+  - [x] Hello from API GW
+  - [x] Microservices
   - [ ] X Ét Ét
   - [ ] J4v4 Censored
   - [ ] LordGPT
