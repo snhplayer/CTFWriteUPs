@@ -19,7 +19,7 @@ WEB
   - [x] Microservices
   - [ ] X Ét Ét
   - [ ] J4v4 Censored
-  - [ ] LordGPT
+  - [x] LordGPT
 
 PWNABLE
   - [ ] pwn01
