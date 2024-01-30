@@ -1,5 +1,5 @@
 - [ ] Let's party in the house
-- [ ] RIPTC
+- [X] RIPTC
 - [x] Long Range 2
 - [x] ChatterBox
 - [ ] Nightmail
