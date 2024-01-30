@@ -8,13 +8,16 @@
 - [x] Corrupted GI
 - [ ] GeoServer Jive: The RCE Hive
 - [ ] T-Box
-- [ ] hoshmonster
+- [x] hoshmonster
 - [ ] 烫烫烫
 - [ ] Router4
-- [ ] pgsum
+- [x] pgsum
 - [ ] minioday
 - [ ] YouKnowHowToFuzz!
 - [ ] Protected by Java SE
 - [ ] Grandma's Laptop
 - [ ] PyGhost
 - [x] LLM sanitizer
+
+Task and attachments
+https://github.com/chaitin/Real-World-CTF-6th-Challenges
