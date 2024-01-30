@@ -5,7 +5,7 @@
 - [ ] Nightmail
 - [x] SafeBridge
 - [ ] The truth of Plain
-- [ ] Corrupted GI
+- [x] Corrupted GI
 - [ ] GeoServer Jive: The RCE Hive
 - [ ] T-Box
 - [ ] hoshmonster
