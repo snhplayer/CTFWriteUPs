@@ -1,6 +1,6 @@
 - [ ] Let's party in the house
 - [ ] RIPTC
-- [ ] Long Range 2
+- [x] Long Range 2
 - [x] ChatterBox
 - [ ] Nightmail
 - [x] SafeBridge
