@@ -1,3 +1,5 @@
+![alt text](https://miro.medium.com/v2/resize:fit:828/format:webp/1*lcwRh1_Yhgxu1RQcEGxCtg.png)
+
 Opening the challenge description we can see that we have a remote connection and an attachment file. So first i did connected to the remote server using netcat (Some people had problem with the connection, It will work perfectly in the netcat openbsd version).
 
 Connecting into the remote server, it greets us with a proof of work challenge to complete in-order to prevent bots/request flooding. So i opened up another terminal, executed the challenge, got the output and input into the prompt.
