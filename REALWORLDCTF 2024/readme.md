@@ -18,3 +18,6 @@
 - [ ] Grandma's Laptop
 - [ ] PyGhost
 - [x] LLM sanitizer
+
+Task and attachments
+https://github.com/chaitin/Real-World-CTF-6th-Challenges
