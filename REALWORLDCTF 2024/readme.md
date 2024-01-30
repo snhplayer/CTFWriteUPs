@@ -8,10 +8,10 @@
 - [x] Corrupted GI
 - [ ] GeoServer Jive: The RCE Hive
 - [ ] T-Box
-- [ ] hoshmonster
+- [x] hoshmonster
 - [ ] 烫烫烫
 - [ ] Router4
-- [ ] pgsum
+- [x] pgsum
 - [ ] minioday
 - [ ] YouKnowHowToFuzz!
 - [ ] Protected by Java SE
